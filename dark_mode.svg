@@ -29,15 +29,15 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="210">  .     ...:+xX$$X$Xx+;::;;:.              </tspan>
 <tspan x="15" y="230">      ..;+xX$$$$$XX$XXx++;;;:.             </tspan>
 <tspan x="15" y="250">      ..;xXX$$XXXX$XXxxx+++;;:             </tspan>
-<tspan x="15" y="270">    .::+X$$X$$$&$$$XXxxx++++;:.            </tspan>
-<tspan x="15" y="290">     xXXX$$$$$$$&&$$$XXxx+++;;:.           </tspan>
+<tspan x="15" y="270">    .::+X$$X$$$&amp;$$$XXxxx++++;:.            </tspan>
+<tspan x="15" y="290">     xXXX$$$$$$$&amp;&amp;$$$XXxx+++;;:.           </tspan>
 <tspan x="15" y="310">     :.;xXXXxXXXXx:::;:;;+;;;:::.          </tspan>
-<tspan x="15" y="330">  +::::&...:;;;......:;:::.:::...    :;:;  </tspan>
+<tspan x="15" y="330">  +::::&amp;...:;;;......:;:::.:::...    :;:;  </tspan>
 <tspan x="15" y="350">.;++;.   :. :;;...    .:; .......   ..:..  </tspan>
-<tspan x="15" y="370"> ++;x$.::+;+X&+;+;++$+:...:::;::.  ...:..  </tspan>
-<tspan x="15" y="390"> .;;$$$$XXX$&&x. xXx+;+;;+x++;;;:.::;.::   </tspan>
-<tspan x="15" y="410">   +XXXX+:X$&$X$ xxXX$XXXxx++;;:::: .;..   </tspan>
-<tspan x="15" y="430">    ::....X$&$XXX: ;;++X:x+;;::::.:.:;;    </tspan>
+<tspan x="15" y="370"> ++;x$.::+;+X&amp;+;+;++$+:...:::;::.  ...:..  </tspan>
+<tspan x="15" y="390"> .;;$$$$XXX$&amp;&amp;x. xXx+;+;;+x++;;;:.::;.::   </tspan>
+<tspan x="15" y="410">   +XXXX+:X$&amp;$X$ xxXX$XXXxx++;;:::: .;..   </tspan>
+<tspan x="15" y="430">    ::....X$&amp;$XXX: ;;++X:x+;;::::.:.:;;    </tspan>
 <tspan x="15" y="450">    .::..; .::....;;..:;;;;::::::...;+:    </tspan>
 <tspan x="15" y="470">    :... +..     .......:::::::::..        </tspan>
 <tspan x="15" y="490">     .::    ..:;:.    .:::::::....+        </tspan>
@@ -45,9 +45,9 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="530">        :+;.. ..:::;;;;::........:;        </tspan>
 <tspan x="15" y="550">         ;X+.x+.::xx+;:.........:: ;       </tspan>
 <tspan x="15" y="570">        XX;;;;+;;++;:............. .+      </tspan>
-<tspan x="15" y="590">       X&+     ...       .......   :;:     </tspan>
-<tspan x="15" y="610">   :&&$$&;x              ......     ;.::   </tspan>
-<tspan x="15" y="630"> &&&&&$X;& ;. .        .......     ..:.;:. </tspan>
+<tspan x="15" y="590">       X&amp;+     ...       .......   :;:     </tspan>
+<tspan x="15" y="610">   :&amp;&amp;$$&amp;;x              ......     ;.::   </tspan>
+<tspan x="15" y="630"> &amp;&amp;&amp;&amp;&amp;$X;&amp; ;. .        .......     ..:.;:. </tspan>
 </text>
 <text x="420" y="50" fill="#c9d1d9">
 <tspan x="420" y="50">pranav@goyal</tspan> -———————————————————————————————————————————-—-

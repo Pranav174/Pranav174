@@ -18,36 +18,36 @@ text, tspan {white-space: pre;}
 <rect width="985px" height="650px" fill="#f6f8fa" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
 <tspan x="15" y="30">                 .....:+;X$;               </tspan>
-<tspan x="15" y="50">             ...::x$;Xx+&:.XX+::;          </tspan>
-<tspan x="15" y="70">          :.::x;X;&X&&&&&&&X&&&XX&$Xx      </tspan>
-<tspan x="15" y="90">       ;;x;;:::x;&&&&&&&&&&x$&&&$&&&&&     </tspan>
-<tspan x="15" y="110">     +X:x:X:x+X&&&&&&$&&&xX&x&X&&$&&&&&X   </tspan>
-<tspan x="15" y="130">    ++:;:.;:&$&&&&&&&+&;&$&&XX&&&&&&&&&&$  </tspan>
-<tspan x="15" y="150">  x&;+X$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X </tspan>
-<tspan x="15" y="170"> &;.;&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& </tspan>
-<tspan x="15" y="190"> X+$&&&&&&&&&&&xXX+Xx&&&X$$$&&&&&&&&&&&&&& </tspan>
-<tspan x="15" y="210">  X&&&&&&$X+;:......::;++;;+x&&&&&&&&&&&&& </tspan>
-<tspan x="15" y="230">   &&&$X;:.............::;;;+$&&&&&&&&&&&$ </tspan>
-<tspan x="15" y="250">    &&$x;:............::::;;;+&&&&&&&&&&&  </tspan>
-<tspan x="15" y="270">    x++;..............::::;;;+$&&&&&&&&&&  </tspan>
-<tspan x="15" y="290">     :.................::::;;;+X&&&&&&&&   </tspan>
-<tspan x="15" y="310">    &+x::...:....:+++;;;;:;;;+++X&&&&&&&   </tspan>
-<tspan x="15" y="330"> &:;+;+.X$$++;+X$$$$x+;x++X+++xX$&&&&+;+;  </tspan>
-<tspan x="15" y="350">X;::;&&$&+$&+;;xX$&&&&$;;&xxx$$XX&&&Xx+$x  </tspan>
-<tspan x="15" y="370"> :::..x++;;:..;;:;::.:+$Xxx++;;+X&&$$$+XX  </tspan>
-<tspan x="15" y="390"> $;;...........x&:..;;;;;:::;;;;xx+++Xx+   </tspan>
-<tspan x="15" y="410">   :....;+......&::......:.:::;+x++&x;XX   </tspan>
-<tspan x="15" y="430">    +xXX$X.......+&;;::.+.:;;;+++xxX+;;    </tspan>
-<tspan x="15" y="450">    xxx$x;&X++$$Xx;+X&+;;;;+++++xxXX;;+    </tspan>
-<tspan x="15" y="470">    +Xx$&:$X&&&&&X&XXX$X++++x+xxxXx        </tspan>
-<tspan x="15" y="490">     x++&&&&Xx;:+X&&&&&+++x++xxxxx;        </tspan>
+<tspan x="15" y="50">             ...::x$;Xx+&amp;:.XX+::;          </tspan>
+<tspan x="15" y="70">          :.::x;X;&amp;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;X&amp;&amp;&amp;XX&amp;$Xx      </tspan>
+<tspan x="15" y="90">       ;;x;;:::x;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x$&amp;&amp;&amp;$&amp;&amp;&amp;&amp;&amp;     </tspan>
+<tspan x="15" y="110">     +X:x:X:x+X&amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;&amp;xX&amp;x&amp;X&amp;&amp;$&amp;&amp;&amp;&amp;&amp;X   </tspan>
+<tspan x="15" y="130">    ++:;:.;:&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;+&amp;;&amp;$&amp;&amp;XX&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$  </tspan>
+<tspan x="15" y="150">  x&amp;;+X$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X </tspan>
+<tspan x="15" y="170"> &amp;;.;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp; </tspan>
+<tspan x="15" y="190"> X+$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;xXX+Xx&amp;&amp;&amp;X$$$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp; </tspan>
+<tspan x="15" y="210">  X&amp;&amp;&amp;&amp;&amp;&amp;$X+;:......::;++;;+x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp; </tspan>
+<tspan x="15" y="230">   &amp;&amp;&amp;$X;:.............::;;;+$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$ </tspan>
+<tspan x="15" y="250">    &amp;&amp;$x;:............::::;;;+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;  </tspan>
+<tspan x="15" y="270">    x++;..............::::;;;+$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;  </tspan>
+<tspan x="15" y="290">     :.................::::;;;+X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;   </tspan>
+<tspan x="15" y="310">    &amp;+x::...:....:+++;;;;:;;;+++X&amp;&amp;&amp;&amp;&amp;&amp;&amp;   </tspan>
+<tspan x="15" y="330"> &amp;:;+;+.X$$++;+X$$$$x+;x++X+++xX$&amp;&amp;&amp;&amp;+;+;  </tspan>
+<tspan x="15" y="350">X;::;&amp;&amp;$&amp;+$&amp;+;;xX$&amp;&amp;&amp;&amp;$;;&amp;xxx$$XX&amp;&amp;&amp;Xx+$x  </tspan>
+<tspan x="15" y="370"> :::..x++;;:..;;:;::.:+$Xxx++;;+X&amp;&amp;$$$+XX  </tspan>
+<tspan x="15" y="390"> $;;...........x&amp;:..;;;;;:::;;;;xx+++Xx+   </tspan>
+<tspan x="15" y="410">   :....;+......&amp;::......:.:::;+x++&amp;x;XX   </tspan>
+<tspan x="15" y="430">    +xXX$X.......+&amp;;;::.+.:;;;+++xxX+;;    </tspan>
+<tspan x="15" y="450">    xxx$x;&amp;X++$$Xx;+X&amp;+;;;;+++++xxXX;;+    </tspan>
+<tspan x="15" y="470">    +Xx$&amp;:$X&amp;&amp;&amp;&amp;&amp;X&amp;XXX$X++++x+xxxXx        </tspan>
+<tspan x="15" y="490">     x++&amp;&amp;&amp;&amp;Xx;:+X&amp;&amp;&amp;&amp;&amp;+++x++xxxxx;        </tspan>
 <tspan x="15" y="510">      x+;:;;:.:..;;;+x+++++xxxxxx+         </tspan>
-<tspan x="15" y="530">        +:;$X&$Xx++;;+++xxxxXXXXx;;        </tspan>
-<tspan x="15" y="550">         ;.:x:;&++:::;+xxXXX$$XXx+&;       </tspan>
-<tspan x="15" y="570">        ..;;;;;;;::;x$XX$$$&$$XXxX&x:      </tspan>
-<tspan x="15" y="590">       ...$&&&&$$&&&&&&&&&&$$$$X&&&+;;     </tspan>
-<tspan x="15" y="610">   +.....:.&&&&&&&&&&&&&&&$$$X$&&&&&;x;x   </tspan>
-<tspan x="15" y="630"> .......:.$:X&X&&&&&&&&&$$$$X$&&&&&XX;x;;X&</tspan>
+<tspan x="15" y="530">        +:;$X&amp;$Xx++;;+++xxxxXXXXx;;        </tspan>
+<tspan x="15" y="550">         ;.:x:;&amp;++:::;+xxXXX$$XXx+&amp;;       </tspan>
+<tspan x="15" y="570">        ..;;;;;;;::;x$XX$$$&amp;$$XXxX&amp;x:      </tspan>
+<tspan x="15" y="590">       ...$&amp;&amp;&amp;&amp;$$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$$$$X&amp;&amp;&amp;+;;     </tspan>
+<tspan x="15" y="610">   +.....:.&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$$$X$&amp;&amp;&amp;&amp;&amp;;x;x   </tspan>
+<tspan x="15" y="630"> .......:.$:X&amp;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$$$$X$&amp;&amp;&amp;&amp;&amp;XX;x;;X&amp;</tspan>
 </text>
 <text x="420" y="30" fill="#24292f">
 <tspan x="420" y="30">pranav@goyal</tspan> -———————————————————————————————————————————-—-
