@@ -23,7 +23,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USERNAME: ${{ github.USER_NAME }}
+          USERNAME: ${{ secrets.USER_NAME }}
           SETTING_JSON: conf/github-profile-3d-contrib.json
           
       # push the content of <build_dir> to a branch
