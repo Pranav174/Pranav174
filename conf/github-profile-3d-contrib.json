@@ -19,7 +19,7 @@
     {
         "type": "normal",
         "fileName": "night.svg",
-        "backgroundColor": "#00000f",
+        "backgroundColor": "transparent",
         "foregroundColor": "#eeeeff",
         "strongColor": "rgb(255,200,55)",
         "weakColor": "#aaaaaa",

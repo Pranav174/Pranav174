@@ -423,11 +423,13 @@ def tv_time_getter():
             total_minutes = 0
             total_episodes = 0
             for show in shows:
-                runtime = show.get('runtime', 0)
-                seen_episodes = show.get('seen_episodes', 0)
+                runtime = show["runtime"]
+                seen_episodes = show["seen_episodes"]
+                name = show["name"]
+                # print(name, runtime, seen_episodes)
                 total_episodes += seen_episodes
                 total_minutes += runtime * seen_episodes
-            print(total_minutes, total_episodes)
+            print("total_minutes", total_minutes, "total_episodes", total_episodes)
             return total_minutes
         else:
             print(f"TV Time API failed with status {request.status_code}")
