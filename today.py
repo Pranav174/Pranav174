@@ -12,7 +12,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Pranav174'
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'tv_time_getter': 0}
 
 
 def daily_readme(birthday):
@@ -317,7 +317,7 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data, tv_time):
     """
     Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
     """
@@ -332,6 +332,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', loc_data[2], 13)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
+    justify_format(root, 'tv_time', tv_time, 39)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
@@ -409,6 +410,67 @@ def follower_getter(username):
     return int(request.json()['data']['user']['followers']['totalCount'])
 
 
+def tv_time_getter():
+    """
+    Returns the total TV time by calling the tozelabs API and calculating runtime * seen_episodes
+    """
+    query_count('tv_time_getter')
+    try:
+        request = requests.get('https://api2.tozelabs.com/v2/user/9435934/followed_shows')
+        if request.status_code == 200:
+            shows = request.json()
+            total_minutes = 0
+            total_episodes = 0
+            for show in shows:
+                runtime = show.get('runtime', 0)
+                seen_episodes = show.get('seen_episodes', 0)
+                total_episodes += seen_episodes
+                total_minutes += runtime * seen_episodes
+            print(total_minutes, total_episodes)
+            return total_minutes
+        else:
+            print(f"TV Time API failed with status {request.status_code}")
+            return 0
+    except Exception as e:
+        print(f"Error calling TV Time API: {e}")
+        return 0
+
+
+def format_tv_time(total_minutes):
+    """
+    Converts total minutes to 'x months, y days, z hours' format
+    """
+    if total_minutes == 0:
+        return "0 minutes"
+    
+    # Convert to hours first
+    hours = total_minutes // 60
+    remaining_minutes = total_minutes % 60
+    
+    # Convert to days (24 hours = 1 day)
+    days = hours // 24
+    remaining_hours = hours % 24
+    
+    # Convert to months (assuming 30 days = 1 month)
+    months = days // 30
+    remaining_days = days % 30
+    
+    # Build the formatted string
+    parts = []
+    if months > 0:
+        parts.append(f"{months} month{'s' if months != 1 else ''}")
+    if remaining_days > 0:
+        parts.append(f"{remaining_days} day{'s' if remaining_days != 1 else ''}")
+    if remaining_hours > 0:
+        parts.append(f"{remaining_hours} hour{'s' if remaining_hours != 1 else ''}")
+    
+    # If we have leftover minutes and no other units, show them
+    if remaining_minutes > 0 and not parts:
+        parts.append(f"{remaining_minutes} minute{'s' if remaining_minutes != 1 else ''}")
+    
+    return ', '.join(parts)
+
+
 def query_count(funct_id):
     """
     Counts how many times the GitHub GraphQL API is called
@@ -458,6 +520,9 @@ if __name__ == '__main__':
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
+    tv_time_minutes, tv_time_time = perf_counter(tv_time_getter)
+    tv_time_formatted = format_tv_time(tv_time_minutes)
+    formatter('TV time calculation', tv_time_time)
 
     # several repositories that I've contributed to have since been deleted.
     if OWNER_ID == {'id': 'MDQ6VXNlcjQzODI4MzU5'}: # only calculate for user Pranav174
@@ -469,13 +534,13 @@ if __name__ == '__main__':
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
 
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], tv_time_formatted)
+    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], tv_time_formatted)
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
-    print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
-        ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
+    print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time + follower_time + tv_time_time)),
+        ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
     for funct_name, count in QUERY_COUNT.items(): print('{:<28}'.format('   ' + funct_name + ':'), '{:>6}'.format(count))
