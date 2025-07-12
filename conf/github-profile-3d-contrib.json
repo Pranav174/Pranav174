@@ -1,6 +1,6 @@
 [
     {
-        "type": "green",
+        "type": "normal",
         "fileName": "day.svg",
         "backgroundColor": "#ffffff",
         "foregroundColor": "#00000f",
@@ -17,21 +17,20 @@
         ]
     },
     {
-        "type": "green",
+        "type": "normal",
         "fileName": "night.svg",
         "backgroundColor": "#00000f",
         "foregroundColor": "#eeeeff",
         "strongColor": "rgb(255,200,55)",
         "weakColor": "#aaaaaa",
-        "radarColor": "rgb(255,200,55)",
+        "radarColor": "#47a042",
         "growingAnimation": true,
-        "saturation": "50%",
-        "contribLightness": [
-            "20%",
-            "30%",
-            "35%",
-            "40%",
-            "50%"
+        "contribColors": [
+        "#444444",
+        "#1B7D28",
+        "#24A736",
+        "#2DD143",
+        "#57DA69"
         ],
         "duration": "10s",
         "hueRatio": -7
