@@ -52,7 +52,7 @@ text, tspan {white-space: pre;}
 <text x="440" y="30" fill="#24292f">
 <tspan x="440" y="30">pranav@goyal</tspan> —————————————————————————————————————————————————
 <tspan x="440" y="50" class="cc">. </tspan><tspan class="key">Alias</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">g01u</tspan>
-<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......................... </tspan><tspan class="value" id="age_data">25 years, 4 months, 2 days</tspan>
+<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......................... </tspan><tspan class="value" id="age_data">25 years, 4 months, 3 days</tspan>
 <tspan x="440" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">Anchor AI</tspan>
 <tspan x="440" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">CTO</tspan>
 <tspan x="440" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Mac OS 15.6, Android 16</tspan>
@@ -79,7 +79,7 @@ text, tspan {white-space: pre;}
 <tspan x="440" y="550">- GitHub Stats</tspan> ———————————————————————————————————————————————
 <tspan x="440" y="570" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ................................ </tspan><tspan class="value" id="repo_data">34</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">60</tspan>}
 <tspan x="440" y="590" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> .............................................. </tspan><tspan class="value" id="follower_data">32</tspan>
-<tspan x="440" y="610" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ............................................ </tspan><tspan class="value" id="commit_data">1,191</tspan>
-<tspan x="440" y="630" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ........ </tspan><tspan class="value" id="loc_data">2,956,847</tspan> ( <tspan class="addColor" id="loc_add">3,275,068</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">318,221</tspan><tspan class="delColor">--</tspan> )
+<tspan x="440" y="610" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ............................................ </tspan><tspan class="value" id="commit_data">1,193</tspan>
+<tspan x="440" y="630" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ........ </tspan><tspan class="value" id="loc_data">2,956,846</tspan> ( <tspan class="addColor" id="loc_add">3,275,107</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">318,261</tspan><tspan class="delColor">--</tspan> )
 </text>
 </svg>
