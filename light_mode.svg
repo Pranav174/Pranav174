@@ -52,7 +52,7 @@ text, tspan {white-space: pre;}
 <text x="440" y="30" fill="#24292f">
 <tspan x="440" y="30">pranav@goyal</tspan> —————————————————————————————————————————————————
 <tspan x="440" y="50" class="cc">. </tspan><tspan class="key">Alias</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">g01u</tspan>
-<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......................... </tspan><tspan class="value" id="age_data">25 years, 4 months, 6 days</tspan>
+<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......................... </tspan><tspan class="value" id="age_data">25 years, 4 months, 7 days</tspan>
 <tspan x="440" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">Anchor AI</tspan>
 <tspan x="440" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">CTO</tspan>
 <tspan x="440" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Mac OS 15.6, Android 16</tspan>
@@ -68,7 +68,7 @@ text, tspan {white-space: pre;}
 <tspan x="440" y="330" class="cc">. </tspan><tspan class="key">Technical</tspan>.<tspan class="key">Tools</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Bash, Nginx, Celery</tspan>
 <tspan x="440" y="350" class="cc">. </tspan>
 <tspan x="440" y="370" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Random</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Sketching, TV Shows, X Box</tspan>
-<tspan x="440" y="390" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">TvTime</tspan>:<tspan class="cc" id="tv_time_dots"> ................ </tspan><tspan class="value" id="tv_time">3 months, 24 days, 12 hours</tspan>
+<tspan x="440" y="390" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">TvTime</tspan>:<tspan class="cc" id="tv_time_dots"> ................ </tspan><tspan class="value" id="tv_time">3 months, 24 days, 14 hours</tspan>
 <tspan x="440" y="410" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Sports</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Badminton, TT, Cricket</tspan>
 <tspan x="440" y="430">- Contact</tspan> ————————————————————————————————————————————————————
 <tspan x="440" y="450" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">goyalpranav25@gmail.com</tspan>
