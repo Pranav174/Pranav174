@@ -52,7 +52,7 @@ text, tspan {white-space: pre;}
 <text x="440" y="30" fill="#24292f">
 <tspan x="440" y="30">pranav@goyal</tspan> —————————————————————————————————————————————————
 <tspan x="440" y="50" class="cc">. </tspan><tspan class="key">Alias</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">g01u</tspan>
-<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ........................ </tspan><tspan class="value" id="age_data">25 years, 4 months, 12 days</tspan>
+<tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ........................ </tspan><tspan class="value" id="age_data">25 years, 4 months, 13 days</tspan>
 <tspan x="440" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">Anchor AI</tspan>
 <tspan x="440" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">CTO</tspan>
 <tspan x="440" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Mac OS 15.6, Android 16</tspan>
