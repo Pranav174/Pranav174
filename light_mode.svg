@@ -54,8 +54,8 @@ text, tspan {white-space: pre;}
 <tspan x="440" y="50" class="cc">. </tspan><tspan class="key">Alias</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">g01u</tspan>
 <tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......................... </tspan><tspan class="value" id="age_data">25 years, 9 months, 3 days</tspan>
 <tspan x="440" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">Amari AI</tspan>
-<tspan x="440" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">CTO</tspan>
-<tspan x="440" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Mac OS 15.6, Android 16</tspan>
+<tspan x="440" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">Co-founder &amp; TL</tspan>
+<tspan x="440" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Mac OS 26.5 Beta, IOS 26.5</tspan>
 <tspan x="440" y="150" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">Cursor</tspan>
 <tspan x="440" y="170">- Specs</tspan> ——————————————————————————————————————————————————————
 <tspan x="440" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Python, TypeScript, C++</tspan>
